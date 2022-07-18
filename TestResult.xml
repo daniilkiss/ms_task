@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="0" runstate="Runnable" testcasecount="13" result="Passed" total="13" passed="13" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="13" engine-version="3.15.0.0" clr-version="4.0.30319.42000" start-time="2022-06-27 13:50:16Z" end-time="2022-06-27 13:50:17Z" duration="0.847681">
+  <command-line><![CDATA[packages\NUnit.ConsoleRunner.3.15.0\tools\nunit3-console.exe  .\UnitTesting_HomeWork\bin\Debug\UnitTesting_HomeWork.exe]]></command-line>
+  <test-suite type="Assembly" id="1-1027" name="UnitTesting_HomeWork.exe" fullname="C:\Users\Daniil_Kyslenko\source\repos\UnitTesting_HomeWork\UnitTesting_HomeWork\bin\Debug\UnitTesting_HomeWork.exe" runstate="Runnable" testcasecount="13" result="Passed" start-time="2022-06-27T13:50:16.9389502Z" end-time="2022-06-27T13:50:17.0606450Z" duration="0.120879" total="13" passed="13" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="13">
+    <environment framework-version="3.13.3.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.19044.0" platform="Win32NT" cwd="C:\Users\Daniil_Kyslenko\source\repos\UnitTesting_HomeWork" machine-name="EPUAKHAW02BC" user="Daniil_Kyslenko" user-domain="KYIV" culture="ru-RU" uiculture="ru-RU" os-architecture="x86" />
+    <settings>
+      <setting name="DisposeRunners" value="True" />
+      <setting name="WorkDirectory" value="C:\Users\Daniil_Kyslenko\source\repos\UnitTesting_HomeWork" />
+      <setting name="ImageRuntimeVersion" value="4.0.30319" />
+      <setting name="ImageTargetFrameworkName" value=".NETFramework,Version=v4.7.2" />
+      <setting name="ImageRequiresX86" value="True" />
+      <setting name="RunAsX86" value="True" />
+      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+      <setting name="TargetRuntimeFramework" value="net-4.7.2" />
+      <setting name="NumberOfTestWorkers" value="8" />
+    </settings>
+    <properties>
+      <property name="_PID" value="4372" />
+      <property name="_APPDOMAIN" value="domain-" />
+    </properties>
+    <test-suite type="TestSuite" id="1-1028" name="UnitTesting_HomeWork" fullname="UnitTesting_HomeWork" runstate="Runnable" testcasecount="13" result="Passed" start-time="2022-06-27T13:50:16.9529667Z" end-time="2022-06-27T13:50:17.0606450Z" duration="0.106855" total="13" passed="13" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="13">
+      <test-suite type="TestSuite" id="1-1029" name="NUnit_tests" fullname="UnitTesting_HomeWork.NUnit_tests" runstate="Runnable" testcasecount="13" result="Passed" start-time="2022-06-27T13:50:16.9539601Z" end-time="2022-06-27T13:50:17.0606450Z" duration="0.106488" total="13" passed="13" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="13">
+        <test-suite type="TestFixture" id="1-1014" name="CalculatorCosTest" fullname="UnitTesting_HomeWork.NUnit_tests.CalculatorCosTest" classname="UnitTesting_HomeWork.NUnit_tests.CalculatorCosTest" runstate="Runnable" testcasecount="1" result="Passed" start-time="2022-06-27T13:50:16.9560020Z" end-time="2022-06-27T13:50:17.0239623Z" duration="0.068718" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+          <test-case id="1-1015" name="CosTest" fullname="UnitTesting_HomeWork.NUnit_tests.CalculatorCosTest.CosTest" methodname="CosTest" classname="UnitTesting_HomeWork.NUnit_tests.CalculatorCosTest" runstate="Runnable" seed="1470297785" result="Passed" start-time="2022-06-27T13:50:16.9599578Z" end-time="2022-06-27T13:50:17.0209612Z" duration="0.061229" asserts="1" />
+        </test-suite>
+        <test-suite type="TestFixture" id="1-1002" name="CalculatorIsNegativeTest" fullname="UnitTesting_HomeWork.NUnit_tests.CalculatorIsNegativeTest" classname="UnitTesting_HomeWork.NUnit_tests.CalculatorIsNegativeTest" runstate="Runnable" testcasecount="1" result="Passed" start-time="2022-06-27T13:50:17.0321054Z" end-time="2022-06-27T13:50:17.0349230Z" duration="0.003320" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+          <properties>
+            <property name="ParallelScope" value="All" />
+          </properties>
+          <test-case id="1-1003" name="IsNegativeTest" fullname="UnitTesting_HomeWork.NUnit_tests.CalculatorIsNegativeTest.IsNegativeTest" methodname="IsNegativeTest" classname="UnitTesting_HomeWork.NUnit_tests.CalculatorIsNegativeTest" runstate="Runnable" seed="1408874485" result="Passed" start-time="2022-06-27T13:50:17.0329248Z" end-time="2022-06-27T13:50:17.0349230Z" duration="0.001626" asserts="1" />
+        </test-suite>
+        <test-suite type="TestFixture" id="1-1004" name="CalculatorIsPositiveTest" fullname="UnitTesting_HomeWork.NUnit_tests.CalculatorIsPositiveTest" classname="UnitTesting_HomeWork.NUnit_tests.CalculatorIsPositiveTest" runstate="Runnable" testcasecount="1" result="Passed" start-time="2022-06-27T13:50:17.0321054Z" end-time="2022-06-27T13:50:17.0359236Z" duration="0.003696" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+          <properties>
+            <property name="ParallelScope" value="All" />
+          </properties>
+          <test-case id="1-1005" name="IsPositiveTest" fullname="UnitTesting_HomeWork.NUnit_tests.CalculatorIsPositiveTest.IsPositiveTest" methodname="IsPositiveTest" classname="UnitTesting_HomeWork.NUnit_tests.CalculatorIsPositiveTest" runstate="Runnable" seed="1061292530" result="Passed" start-time="2022-06-27T13:50:17.0329248Z" end-time="2022-06-27T13:50:17.0349230Z" duration="0.001954" asserts="1" />
+        </test-suite>
+        <test-suite type="TestFixture" id="1-1006" name="CalculatorSinTest" fullname="UnitTesting_HomeWork.NUnit_tests.CalculatorSinTest" classname="UnitTesting_HomeWork.NUnit_tests.CalculatorSinTest" runstate="Runnable" testcasecount="1" result="Passed" start-time="2022-06-27T13:50:17.0329248Z" end-time="2022-06-27T13:50:17.0349230Z" duration="0.002554" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+          <properties>
+            <property name="ParallelScope" value="All" />
+          </properties>
+          <test-case id="1-1007" name="SinTest" fullname="UnitTesting_HomeWork.NUnit_tests.CalculatorSinTest.SinTest" methodname="SinTest" classname="UnitTesting_HomeWork.NUnit_tests.CalculatorSinTest" runstate="Runnable" seed="1940495357" result="Passed" start-time="2022-06-27T13:50:17.0329248Z" end-time="2022-06-27T13:50:17.0349230Z" duration="0.001823" asserts="1" />
+        </test-suite>
+        <test-suite type="TestFixture" id="1-1018" name="CalculatorMyltiplyTest" fullname="UnitTesting_HomeWork.NUnit_tests.CalculatorMyltiplyTest" classname="UnitTesting_HomeWork.NUnit_tests.CalculatorMyltiplyTest" runstate="Runnable" testcasecount="2" result="Passed" start-time="2022-06-27T13:50:17.0321054Z" end-time="2022-06-27T13:50:17.0431387Z" duration="0.011596" total="2" passed="2" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="2">
+          <properties>
+            <property name="ParallelScope" value="All" />
+          </properties>
+          <test-suite type="ParameterizedMethod" id="1-1021" name="MultiplyTest" fullname="UnitTesting_HomeWork.NUnit_tests.CalculatorMyltiplyTest.MultiplyTest" classname="UnitTesting_HomeWork.NUnit_tests.CalculatorMyltiplyTest" runstate="Runnable" testcasecount="2" result="Passed" start-time="2022-06-27T13:50:17.0329248Z" end-time="2022-06-27T13:50:17.0431387Z" duration="0.010023" total="2" passed="2" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="2">
+            <properties>
+              <property name="_JOINTYPE" value="Sequential" />
+            </properties>
+            <test-case id="1-1019" name="MultiplyTest(1,2)" fullname="UnitTesting_HomeWork.NUnit_tests.CalculatorMyltiplyTest.MultiplyTest(1,2)" methodname="MultiplyTest" classname="UnitTesting_HomeWork.NUnit_tests.CalculatorMyltiplyTest" runstate="Runnable" seed="1236558568" result="Passed" start-time="2022-06-27T13:50:17.0420177Z" end-time="2022-06-27T13:50:17.0420177Z" duration="0.000419" asserts="1" />
+            <test-case id="1-1020" name="MultiplyTest(4,6)" fullname="UnitTesting_HomeWork.NUnit_tests.CalculatorMyltiplyTest.MultiplyTest(4,6)" methodname="MultiplyTest" classname="UnitTesting_HomeWork.NUnit_tests.CalculatorMyltiplyTest" runstate="Runnable" seed="192398641" result="Passed" start-time="2022-06-27T13:50:17.0431387Z" end-time="2022-06-27T13:50:17.0431387Z" duration="0.000035" asserts="1" />
+          </test-suite>
+        </test-suite>
+        <test-suite type="TestFixture" id="1-1016" name="CalculatorDevideTest" fullname="UnitTesting_HomeWork.NUnit_tests.CalculatorDevideTest" classname="UnitTesting_HomeWork.NUnit_tests.CalculatorDevideTest" runstate="Runnable" testcasecount="1" result="Passed" start-time="2022-06-27T13:50:17.0321054Z" end-time="2022-06-27T13:50:17.0459220Z" duration="0.013903" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+          <properties>
+            <property name="ParallelScope" value="All" />
+          </properties>
+          <test-case id="1-1017" name="DevideTest" fullname="UnitTesting_HomeWork.NUnit_tests.CalculatorDevideTest.DevideTest" methodname="DevideTest" classname="UnitTesting_HomeWork.NUnit_tests.CalculatorDevideTest" runstate="Runnable" seed="1928386832" result="Passed" start-time="2022-06-27T13:50:17.0329248Z" end-time="2022-06-27T13:50:17.0459220Z" duration="0.012385" asserts="1">
+            <properties>
+              <property name="Description" value="Test for dividing two values" />
+              <property name="_JOINTYPE" value="Combinatorial" />
+            </properties>
+          </test-case>
+        </test-suite>
+        <test-suite type="TestFixture" id="1-1010" name="CalculatorAddTest" fullname="UnitTesting_HomeWork.NUnit_tests.CalculatorAddTest" classname="UnitTesting_HomeWork.NUnit_tests.CalculatorAddTest" runstate="Runnable" testcasecount="2" result="Passed" start-time="2022-06-27T13:50:17.0321054Z" end-time="2022-06-27T13:50:17.0599216Z" duration="0.028306" total="2" passed="2" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="2">
+          <properties>
+            <property name="ParallelScope" value="All" />
+          </properties>
+          <test-suite type="ParameterizedMethod" id="1-1013" name="AddTest" fullname="UnitTesting_HomeWork.NUnit_tests.CalculatorAddTest.AddTest" classname="UnitTesting_HomeWork.NUnit_tests.CalculatorAddTest" runstate="Runnable" testcasecount="2" result="Passed" start-time="2022-06-27T13:50:17.0329248Z" end-time="2022-06-27T13:50:17.0599216Z" duration="0.027331" total="2" passed="2" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="2">
+            <test-case id="1-1011" name="AddTest(1,2)" fullname="UnitTesting_HomeWork.NUnit_tests.CalculatorAddTest.AddTest(1,2)" methodname="AddTest" classname="UnitTesting_HomeWork.NUnit_tests.CalculatorAddTest" runstate="Runnable" seed="515134089" result="Passed" start-time="2022-06-27T13:50:17.0339226Z" end-time="2022-06-27T13:50:17.0599216Z" duration="0.026082" asserts="1" />
+            <test-case id="1-1012" name="AddTest(8,-4)" fullname="UnitTesting_HomeWork.NUnit_tests.CalculatorAddTest.AddTest(8,-4)" methodname="AddTest" classname="UnitTesting_HomeWork.NUnit_tests.CalculatorAddTest" runstate="Runnable" seed="695771266" result="Passed" start-time="2022-06-27T13:50:17.0349230Z" end-time="2022-06-27T13:50:17.0599216Z" duration="0.024733" asserts="1" />
+          </test-suite>
+        </test-suite>
+        <test-suite type="TestFixture" id="1-1025" name="CalculatorSubtractTest" fullname="UnitTesting_HomeWork.NUnit_tests.CalculatorSubtractTest" classname="UnitTesting_HomeWork.NUnit_tests.CalculatorSubtractTest" runstate="Runnable" testcasecount="1" result="Passed" start-time="2022-06-27T13:50:17.0329248Z" end-time="2022-06-27T13:50:17.0599216Z" duration="0.027394" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+          <properties>
+            <property name="ParallelScope" value="All" />
+          </properties>
+          <test-case id="1-1026" name="SubstractTest" fullname="UnitTesting_HomeWork.NUnit_tests.CalculatorSubtractTest.SubstractTest" methodname="SubstractTest" classname="UnitTesting_HomeWork.NUnit_tests.CalculatorSubtractTest" runstate="Runnable" seed="1471482510" result="Passed" start-time="2022-06-27T13:50:17.0329248Z" end-time="2022-06-27T13:50:17.0599216Z" duration="0.026835" asserts="1" />
+        </test-suite>
+        <test-suite type="TestFixture" id="1-1000" name="CalculatorAbsTest" fullname="UnitTesting_HomeWork.NUnit_tests.CalculatorAbsTest" classname="UnitTesting_HomeWork.NUnit_tests.CalculatorAbsTest" runstate="Runnable" testcasecount="1" result="Passed" start-time="2022-06-27T13:50:17.0321054Z" end-time="2022-06-27T13:50:17.0599216Z" duration="0.028389" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+          <properties>
+            <property name="ParallelScope" value="All" />
+          </properties>
+          <test-case id="1-1001" name="AbsTest" fullname="UnitTesting_HomeWork.NUnit_tests.CalculatorAbsTest.AbsTest" methodname="AbsTest" classname="UnitTesting_HomeWork.NUnit_tests.CalculatorAbsTest" runstate="Runnable" seed="224738569" result="Passed" start-time="2022-06-27T13:50:17.0329248Z" end-time="2022-06-27T13:50:17.0599216Z" duration="0.026951" asserts="1" />
+        </test-suite>
+        <test-suite type="TestFixture" id="1-1022" name="CalculatorPowTest" fullname="UnitTesting_HomeWork.NUnit_tests.CalculatorPowTest" classname="UnitTesting_HomeWork.NUnit_tests.CalculatorPowTest" runstate="Runnable" testcasecount="1" result="Passed" start-time="2022-06-27T13:50:17.0321054Z" end-time="2022-06-27T13:50:17.0599216Z" duration="0.027473" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+          <properties>
+            <property name="ParallelScope" value="All" />
+          </properties>
+          <test-suite type="ParameterizedMethod" id="1-1024" name="PowTest" fullname="UnitTesting_HomeWork.NUnit_tests.CalculatorPowTest.PowTest" classname="UnitTesting_HomeWork.NUnit_tests.CalculatorPowTest" runstate="Runnable" testcasecount="1" result="Passed" start-time="2022-06-27T13:50:17.0329248Z" end-time="2022-06-27T13:50:17.0599216Z" duration="0.026929" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+            <test-case id="1-1023" name="PowTest(2,2)" fullname="UnitTesting_HomeWork.NUnit_tests.CalculatorPowTest.PowTest(2,2)" methodname="PowTest" classname="UnitTesting_HomeWork.NUnit_tests.CalculatorPowTest" runstate="Runnable" seed="1276040033" result="Passed" start-time="2022-06-27T13:50:17.0360190Z" end-time="2022-06-27T13:50:17.0599216Z" duration="0.024426" asserts="1" />
+          </test-suite>
+        </test-suite>
+        <test-suite type="TestFixture" id="1-1008" name="CalculatorSqrtTest" fullname="UnitTesting_HomeWork.NUnit_tests.CalculatorSqrtTest" classname="UnitTesting_HomeWork.NUnit_tests.CalculatorSqrtTest" runstate="Runnable" testcasecount="1" result="Passed" start-time="2022-06-27T13:50:17.0329248Z" end-time="2022-06-27T13:50:17.0599216Z" duration="0.027468" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+          <properties>
+            <property name="ParallelScope" value="All" />
+          </properties>
+          <test-case id="1-1009" name="SqrtTest" fullname="UnitTesting_HomeWork.NUnit_tests.CalculatorSqrtTest.SqrtTest" methodname="SqrtTest" classname="UnitTesting_HomeWork.NUnit_tests.CalculatorSqrtTest" runstate="Runnable" seed="2127925002" result="Passed" start-time="2022-06-27T13:50:17.0339226Z" end-time="2022-06-27T13:50:17.0599216Z" duration="0.026509" asserts="1" />
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
