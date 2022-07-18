@@ -9,7 +9,7 @@ namespace UnitTesting_HomeWork.MsTests
     {
         private readonly Calculator _calculator = new Calculator();
         public TestContext TestContext { get; set; }
-        private Random _random = new Random();
+        private readonly Random _random = new Random();
         private double _firstValue;
         private double _secondValue;
 
